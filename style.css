@@ -86,6 +86,17 @@ body a{
     margin-right: 10px;
 }
 
+.links .text:hover{
+    margin-bottom: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #9575cd;
+}
+
+.links .separator:hover{
+    color: #FFFFFF;
+}
+
 #about, #software, #links{
     display: none;
 }
@@ -97,4 +108,40 @@ body a{
 .selected{
     color: #9575cd;
     font-weight: bold;
+}
+
+.text a{
+    cursor: pointer;
+}
+
+.user{
+    color: #673ab7;
+}
+
+.location{
+    color: #ffeb3b;
+}
+
+.underscore{
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    50%{opacity: 0;}
+}
+
+.clear-list{
+    list-style-type: none;
+}
+
+.toggle:hover{
+    cursor: pointer;
+}
+
+#discord-user{
+    color: #ffeb3b;
+    transition: width 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
