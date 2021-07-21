@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xoko's page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    Hello GitHub Pages!
+    <div class="container">
+        <nav>
+            <div class="card links">
+                <div class="text" id="aboutLink">
+                    <a href="#" onclick="change('about');">About</a>
+                </div>
+                <div class="separator text">✱</div>
+                <div class="text" id="softwareLink">
+                    <a href="#" onclick="change('software');">Software</a>
+                </div>
+                <div class="separator text">✱</div>
+                <div class="text" id="linksLink">
+                    <a href="#" onclick="change('links');">Links</a>
+                </div>
+            </div>
+            <div class="card header">
+                <div class="pfp">
+                    <img src="img/icon_original.png" alt="xoko14's pfp" class="round">
+                </div>
+                <div class="text">
+                    <a href="#" onclick="change('main');">Xoko's page</a>
+                </div>
+            </div>
+        </nav>
+        <div class="card content" id="about">
+            <p>Hi! I'm Xoquín, Xoko for short. I don't have any preference with pronouns. I'm a 19 y/o multiplatform app
+                development student. In my free time I like to play rhythm games (like SDVX or Taiko) and read manga.
+            </p>
+            <p>I like coding in Typescript, C# and Java. I also know a little bit of Python and C++. I can do stuff with
+                HTML and CSS but I don't enjoy it as much.</p>
+            <p>I have experience working with Arduino (both software and hardware) and with Raspberry Pi.</p>
+            <p>I can speak Galicean, Spanish and English. I know a little bit of French and Japanese, but not enough for
+                speaking (I have only studied them for 2 years).</p>
+
+        </div>
+        <div class="card content" id="software">
+            <p>I've always loved using Linux but because of my hobbies (gaming) I ended up choosing Windows 10 as my main OS. Even though, I use Ubuntu as my secondary OS.</p>
+            <p>I prefer to use VS Code for everything I can. For C# I ended up using Visual Studio because building was less of a headache.</p>
+        </div>
+        <div class="card content" id="links">
+            Soon
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
