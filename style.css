@@ -33,6 +33,7 @@ body a{
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    color: #FFFFFF;
 
 }
 
@@ -44,6 +45,7 @@ body a{
     height: 55px;
     top: -105px;
     position: relative;
+    color: #000000;
 }
 
 .header .text{
@@ -102,7 +104,7 @@ body a{
 }
 
 .content{
-    background-color: rgba(255, 255, 255, 0.50);
+    background-color: rgba(255, 255, 255, 0.16);
 }
 
 .selected{
@@ -115,7 +117,7 @@ body a{
 }
 
 .user{
-    color: #673ab7;
+    color: #9575cd;
 }
 
 .location{
