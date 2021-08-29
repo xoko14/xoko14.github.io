@@ -37,6 +37,7 @@ body a{
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 5px;
     color: #FFFFFF;
 
 }
@@ -70,7 +71,7 @@ body a{
 .pfp{
     height: 50px;
     margin: 2px;
-    position: fixed;
+    position: relative;
 }
 
 .links{
